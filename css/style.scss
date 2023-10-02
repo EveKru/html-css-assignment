@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+html, body {
+    color: #191919;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-yellow{
+    background-color: #F9D783; 
+    color:#191919;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-weight: 600;
+    border-radius: 25px;
+
+    i{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
+
+header {
+    background-color: #F0EFE9;
+    padding: 16px;
+    
+    .container {
+        display: flex;
+        gap: 70px;
+    }
+
+    .menu{
+        flex: 1;
+
+        .topp-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #b5b4b4;
+            padding-bottom: 5px;
+
+            .contact-information{
+                display:flex;
+                align-items: center;
+
+                .content-box{
+                    margin-right: 20px;
+                    font-size: 15px;
+                    font-weight:300;
+                    padding-right: 20px;
+                    border-right: 1px solid #b5b4b4;
+
+                    &.last {
+                        border: none;
+                    }
+
+                    i{
+                        margin-right: 4px;
+                        color:#4e4e4e
+                    }
+                }
+            }
+
+            .social-media {
+                a {
+                    margin-left: 10px;
+                    font-size: 1.2rem;
+                    color: #191919;
+
+                    &:hover {
+                        color:#b1abab;
+                    }  
+                }
+            }
+        }
+
+        .main-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+
+            nav{
+                a {
+                    color:#191919; 
+                    text-decoration: none;
+                    margin-right: 25px;
+
+                    &.active {
+                        text-decoration: underline;
+                        font-weight: 600;
+                    }
+
+                    &:hover {
+                        color: #7a7878; 
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
