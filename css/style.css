@@ -8,6 +8,21 @@ html, body {
   line-height: 1.5;
 }
 
+.section-title {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.section-title p {
+  color: #f94d1c;
+  margin-bottom: 5px;
+}
+.section-title h2 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
 .wrapper-grid {
   display: grid;
   height: 100vh;
@@ -130,4 +145,31 @@ header .menu .main-menu nav a:hover {
 }
 .showcase .container img {
   margin-right: -50px;
+}
+
+.project-and-case-studies .container .section-title {
+  text-align: center;
+}
+.project-and-case-studies .container .project-and-cases {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.project-and-case-studies .container .project-and-cases article img {
+  width: 100%;
+}
+.project-and-case-studies .container .project-and-cases article h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 35px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(173, 171, 171);
+}
+.project-and-case-studies .container .project-and-cases article a {
+  padding-top: 10px;
+  display: block;
+  text-align: right;
+  color: #191919;
+  text-decoration: none;
 }
