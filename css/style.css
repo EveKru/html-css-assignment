@@ -39,15 +39,18 @@ html, body {
 .btn-yellow {
   background-color: #F9D783;
   color: #191919;
-  border: 1px solid #F9D783;
   text-decoration: none;
   padding: 10px 20px;
   font-weight: 600;
   border-radius: 25px;
+  transition: background-color 0.3s;
 }
 .btn-yellow i {
   margin-left: 10px;
   font-size: 14px;
+}
+.btn-yellow:hover {
+  background-color: #c9ae6b;
 }
 
 .btn-transparent {
@@ -58,10 +61,14 @@ html, body {
   padding: 8px 20px;
   font-weight: 600;
   border-radius: 25px;
+  transition: background-color 0.3s;
 }
 .btn-transparent i {
   margin-left: 10px;
   font-size: 14px;
+}
+.btn-transparent:hover {
+  background-color: #c8c6be;
 }
 
 .btn-black {
@@ -71,10 +78,14 @@ html, body {
   padding: 10px 20px;
   font-weight: 600;
   border-radius: 25px;
+  transition: background-color 0.2s;
 }
 .btn-black i {
   margin-left: 10px;
   font-size: 14px;
+}
+.btn-black:hover {
+  background-color: #6d6c6c;
 }
 
 header {
@@ -119,7 +130,7 @@ header .menu .topp-menu .social-media a {
   color: #191919;
 }
 header .menu .topp-menu .social-media a:hover {
-  color: #b1abab;
+  color: #676565;
 }
 header .menu .main-menu {
   display: flex;
@@ -141,7 +152,7 @@ header .menu .main-menu nav a.active {
   font-weight: 600;
 }
 header .menu .main-menu nav a:hover {
-  color: #7a7878;
+  color: #676565;
 }
 
 .showcase {
@@ -176,6 +187,14 @@ header .menu .main-menu nav a:hover {
 }
 .showcase .container img {
   margin-right: -50px;
+}
+
+.sponsoring .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.sponsoring .container .images {
+  display: flex;
 }
 
 .project-and-case-studies .container .section-title {
@@ -231,4 +250,7 @@ header .menu .main-menu nav a:hover {
   outline: none;
   border: 1px solid rgb(192, 190, 190);
   margin-right: 20px;
+}
+.newsletter .container form .btn-yellow {
+  border: none;
 }

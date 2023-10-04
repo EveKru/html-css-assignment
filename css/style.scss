@@ -43,15 +43,19 @@ html, body {
 .btn-yellow{
     background-color: #F9D783; 
     color:#191919;
-    border: 1px solid #F9D783;
     text-decoration: none;
     padding: 10px 20px;
     font-weight: 600;
     border-radius: 25px;
+    transition: background-color 0.3s;
 
     i{
         margin-left: 10px;
         font-size: 14px;
+    }
+
+    &:hover {
+        background-color: #c9ae6b;
     }
 }
 
@@ -63,10 +67,15 @@ html, body {
     padding: 8px 20px;
     font-weight: 600;
     border-radius: 25px;
+    transition: background-color 0.3s;
 
     i{
         margin-left: 10px;
         font-size: 14px;
+    }
+
+    &:hover {
+        background-color: #c8c6be;
     }
 }
 
@@ -77,10 +86,15 @@ html, body {
     padding: 10px 20px;
     font-weight: 600;
     border-radius: 25px;
+    transition: background-color 0.2s;
 
     i{
         margin-left: 10px;
         font-size: 14px;
+    }
+
+    &:hover {
+        background-color: #6d6c6c;
     }
 }
 
@@ -132,7 +146,7 @@ header {
                     color: #191919;
 
                     &:hover {
-                        color:#b1abab;
+                        color:#676565;
                     }  
                 }
             }
@@ -161,7 +175,7 @@ header {
                     }
 
                     &:hover {
-                        color: #7a7878; 
+                        color: #676565; 
                     }
                 }
             }
@@ -211,6 +225,18 @@ header {
         }
     }
 } 
+
+.sponsoring {
+    
+    .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        .images {
+            display: flex;
+        }
+    }
+}
 
 .project-and-case-studies {
 
@@ -282,7 +308,9 @@ header {
                 border: 1px solid rgb(192, 190, 190);
                 margin-right: 20px;
             }
+            .btn-yellow {
+                border: none;
+            }
         }
     }
 }
-
