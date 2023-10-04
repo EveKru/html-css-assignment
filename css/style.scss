@@ -45,7 +45,7 @@ html, body {
     color:#191919;
     text-decoration: none;
     padding: 10px 20px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 25px;
     transition: background-color 0.3s;
 
@@ -65,7 +65,7 @@ html, body {
     color:#191919;
     text-decoration: none;
     padding: 8px 20px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 25px;
     transition: background-color 0.3s;
 
@@ -84,7 +84,7 @@ html, body {
     color:#f8f8f8;
     text-decoration: none;
     padding: 10px 20px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 25px;
     transition: background-color 0.2s;
 
@@ -238,6 +238,107 @@ header {
     }
 }
 
+.features {
+
+    padding-bottom: 100px;
+
+    .container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        outline: 1px solid rgb(208, 207, 207);
+        outline-offset: 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .text-and-button {
+
+            p {
+                color: #f94d1c
+            }
+
+            h2 {
+
+                font-size: 35px;
+                font-weight: 700;
+                padding-bottom: 40px;
+            }
+
+            .btn-yellow {
+                
+                padding: 15px 200px 15px 200px;
+            }
+        }
+
+        .grid-columns {
+
+            display: grid;
+            grid-template-rows: 1fr 1fr; 
+            grid-template-columns: 1fr 1fr;
+
+            .business-advice {
+
+                i {
+                    font-size: 30px;
+                    padding-bottom: 15px;
+                }
+
+                h3{
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+            }
+
+            .startup-business {
+
+                i {
+                    font-size: 30px;
+                    padding-bottom: 15px;
+                }
+
+                h3{
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+            }
+
+            .financial-advice {
+
+                padding-top: 20px;
+
+                i {
+                    font-size: 30px;
+                    padding-bottom: 15px;
+                }
+
+                h3{
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+            }
+
+            .risk-management {
+
+                padding-top: 20px;
+
+                i {
+                    font-size: 30px;
+                    padding-bottom: 15px;
+                }
+
+                h3{
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
 .project-and-case-studies {
 
     .container {
@@ -317,7 +418,7 @@ header {
 
 footer {
     background-color: #0e1021;
-    border-top: #f8f8f8;
+    border-top: 10px solid #b73b3b;
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
