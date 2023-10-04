@@ -254,3 +254,24 @@ header .menu .main-menu nav a:hover {
 .newsletter .container form .btn-yellow {
   border: none;
 }
+
+footer {
+  background-color: #0e1021;
+  border-top: #f8f8f8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .copyright-text p {
+  display: inline;
+  color: #f1f1f1;
+}
+footer .container .social-media a {
+  color: #f1f1f1;
+  padding-right: 10px;
+}
