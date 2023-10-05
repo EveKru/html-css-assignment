@@ -98,6 +98,18 @@ html, body {
     }
 }
 
+.btn-round {
+    color: #191919;
+    border: 1px solid #191919;
+    padding: 15px 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #c8c6be;
+    }
+}
+
 header {
     background-color: #F0EFE9;
     padding: 16px;
@@ -253,20 +265,22 @@ header {
 
         .text-and-button {
 
+            margin: auto;
+
             p {
                 color: #f94d1c
             }
 
             h2 {
 
-                font-size: 35px;
+                font-size: 45px;
                 font-weight: 700;
                 padding-bottom: 40px;
             }
 
             .btn-yellow {
                 
-                padding: 15px 200px 15px 200px;
+                padding: 15px 150px 15px 150px;
             }
         }
 
@@ -275,6 +289,8 @@ header {
             display: grid;
             grid-template-rows: 1fr 1fr; 
             grid-template-columns: 1fr 1fr;
+            padding-left: 20px;
+            padding-top: 10px;
 
             .business-advice {
 
@@ -333,6 +349,99 @@ header {
                     font-family: 'DM Sans', sans-serif;
                     font-size: 22px;
                     font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+.about-company {
+
+    .container {
+
+        display: flex;
+        position: relative;
+
+        img {
+            height: 600px;
+            width: 500px;
+        }
+
+        .text {
+
+            background-color: #beebff;
+            height: 180px;
+            width: 360px;
+            position: absolute;
+            bottom: 50px;
+            left: -30px;
+
+            .samantha {
+
+                display: flex;
+                padding-top: 45px;
+                padding-left: 30px;
+                
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+
+                p{
+                    color: #f94d1c;
+                    font-weight: 700;
+                    font-size: 16px;
+                    margin-left: 5px;
+                }
+            }
+            #text2 {
+                padding-left: 30px;
+            }
+        }
+
+        .content {
+
+            padding-top: 60px;
+            padding-left:150px;
+            
+            .heading {
+
+                p {
+                    color: #f94d1c;
+                    font-size: 18px;
+                }
+
+                h2 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    padding-bottom: 20px;
+                    padding-top: 15px;
+                }
+            } 
+
+            .buttons {
+
+                display: flex;
+
+                #button-1 {
+
+                    padding-top: 70px;
+    
+                    .btn-black {
+                        padding: 15px 30px 15px 30px;
+                    }
+                }
+
+                #button-2 {
+                    
+                    padding-top: 70px;
+                    padding-left: 30px;
+                }
+
+                p {
+                    padding-top: 70px;
+                    padding-left: 20px;
                 }
             }
         }
