@@ -206,6 +206,8 @@ header .menu .main-menu nav a:hover {
 }
 .sponsoring .container .images {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .features {
@@ -498,6 +500,84 @@ header .menu .main-menu nav a:hover {
 }
 .our-services .container .button-5 a {
   padding: 15px 20px 15px 20px;
+}
+
+.why-choose-us {
+  position: relative;
+  padding-top: 90px;
+  height: 700px;
+}
+.why-choose-us .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.why-choose-us .container img {
+  height: 500px;
+  width: 650px;
+  position: absolute;
+  bottom: 100px;
+  right: 230px;
+}
+.why-choose-us .container .background-box {
+  background-color: #F0EFE9;
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+.why-choose-us .container .content h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.why-choose-us .container .content p {
+  padding-left: 20px;
+}
+.why-choose-us .container .content .heading h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 40px;
+}
+.why-choose-us .container .content .heading p {
+  color: #f94d1c;
+  padding: 0;
+}
+.why-choose-us .container .content #thumbs-up {
+  display: flex;
+}
+.why-choose-us .container .content #thumbs-up i {
+  font-size: 30px;
+  padding-right: 20px;
+  padding-top: 25px;
+}
+.why-choose-us .container .content #diamond {
+  display: flex;
+}
+.why-choose-us .container .content #diamond i {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+.why-choose-us .container .content #codepen {
+  display: flex;
+}
+.why-choose-us .container .content #codepen i {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+.why-choose-us .container .content #brain {
+  display: flex;
+}
+.why-choose-us .container .content #brain i {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-right: 20px;
 }
 
 .project-and-case-studies .container .section-title {
