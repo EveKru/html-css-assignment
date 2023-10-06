@@ -611,6 +611,58 @@ header .menu .main-menu nav a:hover {
   margin-bottom: 90px;
 }
 
+.article-and-news .container {
+  padding-bottom: 100px;
+}
+.article-and-news .container .header {
+  display: flex;
+  align-items: center;
+}
+.article-and-news .container .header .text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+.article-and-news .container .header .text p {
+  color: #f94d1c;
+}
+.article-and-news .container .header .button {
+  padding-left: 470px;
+}
+.article-and-news .container .header .button a {
+  padding: 15px 20px 15px 20px;
+}
+.article-and-news .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.article-and-news .container .content .article-1 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.article-and-news .container .content .article-1 img {
+  padding-bottom: 20px;
+}
+.article-and-news .container .content .article-2 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.article-and-news .container .content .article-2 img {
+  padding-bottom: 20px;
+}
+.article-and-news .container .content .article-3 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.article-and-news .container .content .article-3 img {
+  padding-bottom: 20px;
+}
+
 .newsletter {
   position: relative;
   background-color: #F0EFE9;
