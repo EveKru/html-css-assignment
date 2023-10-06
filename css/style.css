@@ -283,6 +283,9 @@ header .menu .main-menu nav a:hover {
   font-weight: 700;
 }
 
+.about-company {
+  padding-bottom: 100px;
+}
 .about-company .container {
   display: flex;
   position: relative;
@@ -348,6 +351,153 @@ header .menu .main-menu nav a:hover {
 .about-company .container .content .buttons p {
   padding-top: 70px;
   padding-left: 20px;
+}
+
+.our-services {
+  position: relative;
+  background-color: #F0EFE9;
+  padding-top: 100px;
+  height: 800px;
+}
+.our-services .container img {
+  height: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.our-services .container .text p {
+  color: #f94d1c;
+}
+.our-services .container .text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 40px;
+}
+.our-services .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.our-services .container .content #box-1 {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+}
+.our-services .container .content #box-1 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+.our-services .container .content #box-1 p {
+  padding-left: 30px;
+}
+.our-services .container .content #box-1 #button-1 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.our-services .container .content #box-1 #button-1 a {
+  background-color: #191919;
+  border: none;
+}
+.our-services .container .content #box-1 #button-1 a i {
+  color: white;
+}
+.our-services .container .content #box-1 #button-1 a:hover {
+  background-color: #8f7c4c;
+}
+.our-services .container .content #box-2 {
+  background-color: #F9D783;
+  height: 300px;
+  width: 300px;
+}
+.our-services .container .content #box-2 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+.our-services .container .content #box-2 p {
+  padding-left: 30px;
+}
+.our-services .container .content #box-2 #button-2 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.our-services .container .content #box-2 #button-2 a {
+  background-color: white;
+}
+.our-services .container .content #box-2 #button-2 a:hover {
+  background-color: #8f7c4c;
+}
+.our-services .container .content #box-3 {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+}
+.our-services .container .content #box-3 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+.our-services .container .content #box-3 p {
+  padding-left: 30px;
+}
+.our-services .container .content #box-3 #button-3 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.our-services .container .content #box-3 #button-3 a {
+  background-color: #191919;
+  border: none;
+}
+.our-services .container .content #box-3 #button-3 a i {
+  color: white;
+}
+.our-services .container .content #box-3 #button-3 a:hover {
+  background-color: #8f7c4c;
+}
+.our-services .container .content #box-4 {
+  background-color: white;
+  height: 300px;
+  width: 300x;
+}
+.our-services .container .content #box-4 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+.our-services .container .content #box-4 p {
+  padding-left: 30px;
+}
+.our-services .container .content #box-4 #button-4 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.our-services .container .content #box-4 #button-4 a {
+  background-color: #191919;
+  border: none;
+}
+.our-services .container .content #box-4 #button-4 a i {
+  color: white;
+}
+.our-services .container .content #box-4 #button-4 a:hover {
+  background-color: #8f7c4c;
+}
+.our-services .container .button-5 {
+  position: absolute;
+  top: 85%;
+  left: 45%;
+}
+.our-services .container .button-5 a {
+  padding: 15px 20px 15px 20px;
 }
 
 .project-and-case-studies .container .section-title {
