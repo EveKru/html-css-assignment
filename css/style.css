@@ -840,66 +840,62 @@ header .menu .main-menu nav a:hover {
 footer {
   background-color: #0e1021;
 }
-footer .container .large-footer {
+footer .large-footer {
+  position: relative;
+}
+footer .large-footer .lines {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+footer .large-footer .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   height: 400px;
-  position: relative;
+  justify-content: center;
+  align-items: center;
 }
-footer .container .large-footer .b {
+footer .large-footer .container .b {
   padding-top: 20px;
 }
-footer .container .large-footer .a {
-  padding-top: 10px;
+footer .large-footer .container .a {
+  padding-top: 20px;
 }
-footer .container .large-footer a {
+footer .large-footer .container a {
   color: rgb(183, 179, 179);
   text-decoration: none;
 }
-footer .container .large-footer p {
+footer .large-footer .container p {
   color: rgb(194, 193, 193);
   padding-top: 20px;
 }
-footer .container .large-footer h3 {
+footer .large-footer .container h3 {
   color: white;
   font-family: "DM Sans", sans-serif;
   font-size: 22px;
   font-weight: 700;
 }
-footer .container .large-footer .logotype {
-  padding-top: 100px;
-  padding-right: 150px;
+footer .large-footer .container .company {
+  padding-left: 60px;
 }
-footer .container .large-footer .logotype p {
-  position: absolute;
+footer .large-footer .container .help {
+  padding-left: 20px;
 }
-footer .container .large-footer .company {
-  padding-top: 100px;
+footer .small-footer {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #707070;
 }
-footer .container .large-footer .help {
-  padding-top: 100px;
-}
-footer .container .large-footer .resources {
-  padding-top: 100px;
-}
-footer .container .large-footer .link {
-  padding-top: 100px;
-}
-footer .container .small-footer {
+footer .small-footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
 }
-footer .container .small-footer .copyright-text p {
+footer .small-footer .container .copyright-text p {
   display: inline;
   color: #f1f1f1;
 }
-footer .container .small-footer .social-media {
-  padding-right: 80px;
-}
-footer .container .small-footer .social-media a {
+footer .small-footer .container .social-media a {
   color: #f1f1f1;
   padding-right: 10px;
 }

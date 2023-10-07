@@ -1161,21 +1161,30 @@ footer {
 
     background-color:#0e1021;
 
-    .container {
+    .large-footer {
 
-        .large-footer {
+        position: relative;
 
+        .lines {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .container {
+            
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             height: 400px;
-            position: relative;
+            justify-content: center;
+            align-items: center;
 
             .b {
                 padding-top: 20px;
             }
 
             .a {
-                padding-top: 10px;
+               padding-top: 20px;
             }
 
             a {
@@ -1195,42 +1204,29 @@ footer {
                 font-weight: 700;
             }
 
-            .logotype {
-                padding-top: 100px;
-                padding-right: 150px;
-
-                p {
-                    position: absolute;
-                }
-            }
-
             .company {
-                padding-top: 100px;
+                padding-left: 60px;
             }
-
             .help {
-                padding-top: 100px;
-            }
-
-            .resources {
-                padding-top: 100px;
-            }
-
-            .link {
-                padding-top: 100px;
+                padding-left: 20px
             }
         }
+    } 
+    
+    .small-footer {
 
-        .small-footer {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        border-top: 1px solid #707070;
+
+        .container {
 
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-bottom: 30px;
-            padding-top: 30px;
-    
+
             .copyright-text {
-        
+    
                 p {
                     display: inline;
                     color: #f1f1f1;
@@ -1239,14 +1235,12 @@ footer {
             }
     
             .social-media {
-
-                padding-right: 80px;
     
                 a {
                     color: #f1f1f1;
                     padding-right: 10px;
                 }
             }
-        }     
-    }
+        }
+    } 
 }
