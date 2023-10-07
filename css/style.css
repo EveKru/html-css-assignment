@@ -634,6 +634,9 @@ header .menu .main-menu nav a:hover {
 .meet-our-team .container .heading .button a {
   padding: 15px 25px 15px 25px;
 }
+.meet-our-team .container .heading .button a:hover {
+  background-color: #c9ae6b;
+}
 .meet-our-team .container .content {
   padding-top: 80px;
 }
@@ -836,21 +839,67 @@ header .menu .main-menu nav a:hover {
 
 footer {
   background-color: #0e1021;
-  border-top: 10px solid #b73b3b;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  align-items: center;
 }
-footer .container {
+footer .container .large-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  height: 400px;
+  position: relative;
+}
+footer .container .large-footer .b {
+  padding-top: 20px;
+}
+footer .container .large-footer .a {
+  padding-top: 10px;
+}
+footer .container .large-footer a {
+  color: rgb(183, 179, 179);
+  text-decoration: none;
+}
+footer .container .large-footer p {
+  color: rgb(194, 193, 193);
+  padding-top: 20px;
+}
+footer .container .large-footer h3 {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+footer .container .large-footer .logotype {
+  padding-top: 100px;
+  padding-right: 150px;
+}
+footer .container .large-footer .logotype p {
+  position: absolute;
+}
+footer .container .large-footer .company {
+  padding-top: 100px;
+}
+footer .container .large-footer .help {
+  padding-top: 100px;
+}
+footer .container .large-footer .resources {
+  padding-top: 100px;
+}
+footer .container .large-footer .link {
+  padding-top: 100px;
+}
+footer .container .small-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
-footer .container .copyright-text p {
+footer .container .small-footer .copyright-text p {
   display: inline;
   color: #f1f1f1;
 }
-footer .container .social-media a {
+footer .container .small-footer .social-media {
+  padding-right: 80px;
+}
+footer .container .small-footer .social-media a {
   color: #f1f1f1;
   padding-right: 10px;
 }

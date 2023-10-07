@@ -850,6 +850,10 @@ header {
 
                     padding: 15px 25px 15px 25px;
 
+                    &:hover {
+                        background-color: #c9ae6b;
+                    }
+
                 }
             }
         }
@@ -1035,9 +1039,6 @@ header {
     }
 }
 
-
-
-
 .article-and-news {
 
     .container {
@@ -1157,32 +1158,95 @@ header {
 }
 
 footer {
-    background-color: #0e1021;
-    border-top: 10px solid #b73b3b;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    align-items: center;
+
+    background-color:#0e1021;
 
     .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-        .copyright-text {
 
-            p {
-                display: inline;
-                color: #f1f1f1;
+        .large-footer {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            height: 400px;
+            position: relative;
+
+            .b {
+                padding-top: 20px;
             }
 
-        }
-
-        .social-media {
+            .a {
+                padding-top: 10px;
+            }
 
             a {
-                color: #f1f1f1;
-                padding-right: 10px;
+                color: rgb(183, 179, 179);
+                text-decoration: none;
+            }
+
+            p {
+                color: rgb(194, 193, 193);
+                padding-top: 20px;
+            }
+            
+            h3 {
+                color: white;
+                font-family:'DM Sans', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+            }
+
+            .logotype {
+                padding-top: 100px;
+                padding-right: 150px;
+
+                p {
+                    position: absolute;
+                }
+            }
+
+            .company {
+                padding-top: 100px;
+            }
+
+            .help {
+                padding-top: 100px;
+            }
+
+            .resources {
+                padding-top: 100px;
+            }
+
+            .link {
+                padding-top: 100px;
             }
         }
+
+        .small-footer {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 30px;
+            padding-top: 30px;
+    
+            .copyright-text {
+        
+                p {
+                    display: inline;
+                    color: #f1f1f1;
+                }
+    
+            }
+    
+            .social-media {
+
+                padding-right: 80px;
+    
+                a {
+                    color: #f1f1f1;
+                    padding-right: 10px;
+                }
+            }
+        }     
     }
 }
