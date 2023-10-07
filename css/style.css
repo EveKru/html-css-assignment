@@ -685,9 +685,19 @@ header .menu .main-menu nav a:hover {
   padding-top: 80px;
   padding-left: 60px;
 }
+.what-our-clients-say .container .content .cassandra .star img {
+  padding-bottom: 20px;
+}
 .what-our-clients-say .container .content .cassandra .image-and-text {
   display: flex;
   padding-top: 20px;
+}
+.what-our-clients-say .container .content .cassandra .image-and-text img {
+  height: auto;
+  width: auto;
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
 }
 .what-our-clients-say .container .content .cassandra .image-and-text .text {
   padding-left: 20px;
@@ -700,6 +710,9 @@ header .menu .main-menu nav a:hover {
 }
 .what-our-clients-say .container .content .cassandra .image-and-text .text p {
   color: #f94d1c;
+}
+.what-our-clients-say .container .content .amanda .star img {
+  padding-bottom: 20px;
 }
 .what-our-clients-say .container .content .amanda .image-and-text {
   display: flex;
@@ -716,6 +729,9 @@ header .menu .main-menu nav a:hover {
 }
 .what-our-clients-say .container .content .amanda .image-and-text .text p {
   color: #f94d1c;
+}
+.what-our-clients-say .container .content .jack .star img {
+  padding-bottom: 20px;
 }
 .what-our-clients-say .container .content .jack .image-and-text {
   display: flex;

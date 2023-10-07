@@ -925,10 +925,25 @@ header {
 
             .cassandra {
 
+                .star {
+
+                    img {
+                        padding-bottom: 20px;
+                    }
+                }
+
                 .image-and-text {
 
                     display: flex;
                     padding-top: 20px;
+
+                    img {
+                        height: auto;
+                        width: auto;
+                        max-width: 70px;
+                        max-height: 70px;
+                        border-radius: 50%;
+                    }
                     
                     .text {
 
@@ -949,6 +964,13 @@ header {
             }
 
             .amanda {
+
+                .star {
+
+                    img {
+                        padding-bottom: 20px;
+                    }
+                }
 
                 .image-and-text {
 
@@ -974,6 +996,13 @@ header {
             }
 
             .jack {
+
+                .star {
+
+                    img {
+                        padding-bottom: 20px;
+                    }
+                }
 
                 .image-and-text {
 
