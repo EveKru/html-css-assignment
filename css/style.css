@@ -607,8 +607,11 @@ header .menu .main-menu nav a:hover {
   text-decoration: none;
 }
 .project-and-case-studies .container .center-content {
-  margin-top: 50px;
-  margin-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.project-and-case-studies .container .center-content .btn-black {
+  padding: 15px 25px 15px 25px;
 }
 
 .meet-our-team {
@@ -631,26 +634,108 @@ header .menu .main-menu nav a:hover {
 .meet-our-team .container .heading .button a {
   padding: 15px 25px 15px 25px;
 }
-.meet-our-team .content {
+.meet-our-team .container .content {
   padding-top: 80px;
 }
-.meet-our-team .content .images {
+.meet-our-team .container .content .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-bottom: 30px;
 }
-.meet-our-team .content .images img {
+.meet-our-team .container .content .images img {
   width: 300px;
   height: 400px;
 }
-.meet-our-team .content .text {
+.meet-our-team .container .content .text {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.meet-our-team .content .text h3 {
+.meet-our-team .container .content .text h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
+}
+.meet-our-team .container #dots {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.what-our-clients-say {
+  background-color: #F9D783;
+  padding-bottom: 120px;
+}
+.what-our-clients-say .container {
+  background-color: white;
+}
+.what-our-clients-say .container .heading {
+  padding-top: 100px;
+  text-align: center;
+}
+.what-our-clients-say .container .heading p {
+  color: #f94d1c;
+}
+.what-our-clients-say .container .heading h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.what-our-clients-say .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 80px;
+  padding-left: 60px;
+}
+.what-our-clients-say .container .content .cassandra .image-and-text {
+  display: flex;
+  padding-top: 20px;
+}
+.what-our-clients-say .container .content .cassandra .image-and-text .text {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.what-our-clients-say .container .content .cassandra .image-and-text .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.what-our-clients-say .container .content .cassandra .image-and-text .text p {
+  color: #f94d1c;
+}
+.what-our-clients-say .container .content .amanda .image-and-text {
+  display: flex;
+  padding-top: 20px;
+}
+.what-our-clients-say .container .content .amanda .image-and-text .text {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.what-our-clients-say .container .content .amanda .image-and-text .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.what-our-clients-say .container .content .amanda .image-and-text .text p {
+  color: #f94d1c;
+}
+.what-our-clients-say .container .content .jack .image-and-text {
+  display: flex;
+  padding-top: 20px;
+}
+.what-our-clients-say .container .content .jack .image-and-text .text {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.what-our-clients-say .container .content .jack .image-and-text .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.what-our-clients-say .container .content .jack .image-and-text .text p {
+  color: #f94d1c;
+}
+.what-our-clients-say .container .center-content {
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .article-and-news .container {
