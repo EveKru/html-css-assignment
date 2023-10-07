@@ -611,8 +611,51 @@ header .menu .main-menu nav a:hover {
   margin-bottom: 90px;
 }
 
+.meet-our-team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F9D783;
+}
+.meet-our-team .container .heading p {
+  color: #f94d1c;
+}
+.meet-our-team .container .heading h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.meet-our-team .container .heading .button {
+  padding-left: 1050px;
+  margin-top: -45px;
+}
+.meet-our-team .container .heading .button a {
+  padding: 15px 25px 15px 25px;
+}
+.meet-our-team .content {
+  padding-top: 80px;
+}
+.meet-our-team .content .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 30px;
+}
+.meet-our-team .content .images img {
+  width: 300px;
+  height: 400px;
+}
+.meet-our-team .content .text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.meet-our-team .content .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
 .article-and-news .container {
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 .article-and-news .container .header {
   display: flex;
